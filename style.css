@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #59316b;
+  width: 100%;
+}
+
+.headline-container {
+  text-align: center;
+}
+.headline {
+  color: #fff;
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.headline-description {
+  color: #fff;
+  margin-bottom: 5rem;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+.cards-container {
+  text-align: center;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+}
+.download > button {
+  color: #fff;
+  background-color: #7d4698;
+  border-color: #7d4698;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.download > button:hover {
+  background-color: #59316b;
+  transition: ease-in-out;
+}
+
+.download > p {
+  color: #fff;
+  text-decoration: underline;
+}
+.card > img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
